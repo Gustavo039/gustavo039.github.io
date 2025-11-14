@@ -4,6 +4,11 @@ title: "Disciplinas - UFJF"
 
 Essa página busca facilitar a entrega e visualização de trabalhos de cada disciplina
 
+# Monografia
+
+[Modelos para Séries Temporais de Contagem: implementação dos modelos GLARMA e INGARCH no Software R](arquivos_materias/gustavoalmeidasilva_final.pdf)
+
+
 # Aprendizado de Máquina
 
 [Agrupamento e Modelos de Misturas - Flexmix](arquivos_materias/relatorio_flexmix.html)

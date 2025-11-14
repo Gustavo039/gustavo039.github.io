@@ -20,11 +20,11 @@ about:
       url: "cv/GustavoASilva_Curriculo_EN.pdf"      
 comments: false
 ---
-::: {.column-page}
+
 
 ## Bio 
 
-<span class="itau-emoji"></span></span> Product Risk Analyst Intern - Itaú Unibanco
+<span class="itau-emoji"></span></span> Data and Analytics Analyst - Itaú Unibanco
 
 <span class="jf-emoji"></span></span> Former Epidemiological CNPq Fellow at JFSalvandoTodos
 
@@ -36,7 +36,11 @@ comments: false
 
 ## Summary
 
-I am a statistics student at the Federal University of Juiz de Fora, currently in the final period of the program. As a Scientific Initiation Fellow on the social and epidemiological data analysis platform JF Salvando Todos, i have gained experience in automated data collection and cleaning, creating web pages with RShiny, and data analysis and modeling. Also worked with inference and prediction of epidemiological data using time series models, creating the R package **fableCount**. Currently working at Itaú Unibanco as intern in the product risk analysis area
+Graduated in Statistics from the Federal University of Juiz de Fora.
+
+Professional experienced in R, Python, AWS, and SQL, working on the development of RShiny applications and building data pipelines for inferential and predictive modeling.
+
+Extensive experience in Machine Learning and Deep Learning for epidemiological forecasting.
 
 <p></p>
 
