@@ -81,6 +81,23 @@ li::before{content:"";position:absolute;left:.15em;top:.5em;width:.6em;height:.6
 .eggrow{display:block;width:100%;max-width:clamp(80px,13vw,230px);height:auto;margin:0 auto;filter:drop-shadow(4px 4px 0 rgba(0,0,0,.35))}
 .eggrow *{stroke:#0B0B0B}
 .eggs figcaption{display:inline-block;margin-top:.8em;background:var(--black);color:var(--cream);font-weight:700;font-size:clamp(13px,min(1.4vw,2.5vh),26px);padding:.1em .55em;text-transform:uppercase}
+.slide>.vcard{max-width:58em;background:var(--black);color:var(--cream);padding:.7em 1.1em .5em;margin:.2em 0 .6em;box-shadow:6px 6px 0 var(--green)}
+.vcard p{font-size:clamp(14px,min(1.45vw,2.6vh),28px);margin:0 0 .35em;line-height:1.4}
+.vcard sup{color:var(--green);font-weight:700;margin-right:.25em;font-size:.65em}
+.vcard .cite{color:var(--green);margin:0;font-weight:700}
+.slide>.two{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,120px);align-items:center;max-width:none;width:100%}
+.two .c1>.sub{margin-top:.8em}
+.two .vcard{max-width:none;margin:0;background:var(--black);color:var(--cream);padding:.9em 1.2em .6em;box-shadow:8px 8px 0 var(--green)}
+.two .vcard p{font-size:clamp(15px,min(1.85vw,3.3vh),38px)}
+.two>p{max-width:none}
+.slide>.eggs{max-width:none}
+.eggrow{max-width:clamp(90px,15.5vw,330px)}
+.eggs figcaption{font-size:clamp(14px,min(1.7vw,3vh),34px)}
+.slide>ul.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3.5vw,80px);max-width:none;margin-top:.4em}
+.cards li{padding:clamp(16px,2.4vh,34px) clamp(16px,1.8vw,36px);border:3px solid var(--cream);box-shadow:8px 8px 0 var(--green);font-size:clamp(16px,min(1.9vw,3.4vh),40px)}
+.cards li::before{display:none}
+.cards li b{display:block;margin-bottom:.45em;font-size:1.3em!important;line-height:1.15;text-transform:uppercase}
+@media (max-width:700px){.slide>.two{grid-template-columns:1fr}.slide>ul.cards{grid-template-columns:1fr}}
 .nav{position:fixed;left:0;right:0;bottom:calc(14px + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-between;align-items:center;padding:0 clamp(28px,7vw,170px);pointer-events:none;font-size:14px;font-weight:700;color:var(--nf,var(--cream));z-index:5}
 .nav .mid{background:var(--nb,var(--blue));border:2px solid var(--nf,var(--cream));border-radius:99px;padding:6px 14px}
 .nav button{pointer-events:auto;background:var(--nb,var(--blue));color:var(--nf,var(--cream));border:2px solid var(--nf,var(--cream));width:44px;height:44px;border-radius:50%;font-size:20px;cursor:pointer;font-family:var(--sans)}
@@ -245,12 +262,17 @@ li::before{content:"";position:absolute;left:.15em;top:.5em;width:.6em;height:.6
 <section class="slide" aria-label="A vida como recurso">
 <svg class="egg" viewBox="0 0 130 110" role="img" aria-label="Recurso: o próprio corpo" style="transform:rotate(6deg)"><title>Recurso: o próprio corpo</title><g transform="translate(10,38) rotate(-22 55 0)"><g fill="#0B0B0B" stroke="#0B0B0B" stroke-width="9" stroke-linejoin="round"><circle cx="18" cy="-9" r="11"/><circle cx="18" cy="9" r="11"/><circle cx="92" cy="-9" r="11"/><circle cx="92" cy="9" r="11"/><rect x="18" y="-9" width="74" height="18"/></g><g fill="#F4EDAA" stroke="none"><circle cx="18" cy="-9" r="11"/><circle cx="18" cy="9" r="11"/><circle cx="92" cy="-9" r="11"/><circle cx="92" cy="9" r="11"/><rect x="18" y="-9" width="74" height="18"/></g></g><g transform="translate(10,78) rotate(-22 55 0)"><g fill="#0B0B0B" stroke="#0B0B0B" stroke-width="9" stroke-linejoin="round"><circle cx="18" cy="-9" r="11"/><circle cx="18" cy="9" r="11"/><circle cx="92" cy="-9" r="11"/><circle cx="92" cy="9" r="11"/><rect x="18" y="-9" width="74" height="18"/></g><g fill="#F4EDAA" stroke="none"><circle cx="18" cy="-9" r="11"/><circle cx="18" cy="9" r="11"/><circle cx="92" cy="-9" r="11"/><circle cx="92" cy="9" r="11"/><rect x="18" y="-9" width="74" height="18"/></g></g></svg>
 <hr class="rule">
-<h2><span>A vida é o nosso principal recurso</span></h2>
+<h2 style="font-size:clamp(24px,min(3.4vw,6vh),76px)"><span>A vida é o nosso principal recurso</span></h2>
+<div class="two">
+<div class="c1">
 <ul>
 <li>Tudo ao nosso redor é recurso, e nós somos mordomos.</li>
 <li>Nós mesmos somos recurso por inteiro: carne, osso e sangue. Objetos e bens são só uma extensão.</li>
 </ul>
 <p class="sub">Como você tem sido mordomo do bem mais precioso que Deus deixou ao seu cuidado?</p>
+</div>
+<div class="vcard"><p><sup>19</sup>Ou não sabeis que o vosso corpo é o templo do Espírito Santo, que habita em vós, proveniente de Deus, e que não sois de vós mesmos?</p><p><sup>20</sup>Porque fostes comprados por bom preço; glorificai, pois, a Deus no vosso corpo, e no vosso espírito, os quais pertencem a Deus.</p><p class="cite">1 Coríntios 6:19-20 | ACF</p></div>
+</div>
 </section>
 
 <section class="slide" aria-label="Elementos escondidos">
@@ -263,14 +285,16 @@ li::before{content:"";position:absolute;left:.15em;top:.5em;width:.6em;height:.6
 <figure><svg class="eggrow" viewBox="0 18 120 78" role="img" aria-label="Recurso: um amigo" style="transform:rotate(-8deg)"><title>Recurso: um amigo</title><path d="M12 92Q12 58 40 58Q68 58 68 92z" fill="#6BDC4F" stroke-width="4.5" stroke-linejoin="round"/><path d="M52 92Q52 58 80 58Q108 58 108 92z" fill="#2A52A0" stroke-width="4.5" stroke-linejoin="round"/><circle cx="40" cy="38" r="15" fill="#F4EDAA" stroke-width="4.5"/><circle cx="80" cy="38" r="15" fill="#F4EDAA" stroke-width="4.5"/></svg><figcaption>Amigos</figcaption></figure>
 <figure><svg class="eggrow" viewBox="0 0 130 110" role="img" aria-label="Recurso: o próprio corpo" style="transform:rotate(6deg)"><title>Recurso: o próprio corpo</title><g transform="translate(10,38) rotate(-22 55 0)"><g fill="#0B0B0B" stroke="#0B0B0B" stroke-width="9" stroke-linejoin="round"><circle cx="18" cy="-9" r="11"/><circle cx="18" cy="9" r="11"/><circle cx="92" cy="-9" r="11"/><circle cx="92" cy="9" r="11"/><rect x="18" y="-9" width="74" height="18"/></g><g fill="#F4EDAA" stroke="none"><circle cx="18" cy="-9" r="11"/><circle cx="18" cy="9" r="11"/><circle cx="92" cy="-9" r="11"/><circle cx="92" cy="9" r="11"/><rect x="18" y="-9" width="74" height="18"/></g></g><g transform="translate(10,78) rotate(-22 55 0)"><g fill="#0B0B0B" stroke="#0B0B0B" stroke-width="9" stroke-linejoin="round"><circle cx="18" cy="-9" r="11"/><circle cx="18" cy="9" r="11"/><circle cx="92" cy="-9" r="11"/><circle cx="92" cy="9" r="11"/><rect x="18" y="-9" width="74" height="18"/></g><g fill="#F4EDAA" stroke="none"><circle cx="18" cy="-9" r="11"/><circle cx="18" cy="9" r="11"/><circle cx="92" cy="-9" r="11"/><circle cx="92" cy="9" r="11"/><rect x="18" y="-9" width="74" height="18"/></g></g></svg><figcaption>Corpo</figcaption></figure>
 </div>
-<p style="font-weight:700;font-size:clamp(18px,min(2.2vw,4vh),46px);line-height:1.35;margin-bottom:.4em">Todos esses recursos estavam diante dos nossos olhos o tempo todo, assim como boa parte dos recursos que temos na nossa vida.</p>
-<p class="sub" style="margin-top:.2em">Que possamos ser mais sensíveis e gratos por cada um deles.</p>
+<div class="two" style="align-items:start">
+<p style="font-weight:700;font-size:clamp(18px,min(2.2vw,4vh),46px);line-height:1.35;margin:0">Todos esses recursos estavam diante dos nossos olhos o tempo todo, assim como boa parte dos recursos que temos na nossa vida.</p>
+<p class="sub" style="margin:0">Que possamos ser mais sensíveis e gratos por cada um deles.</p>
+</div>
 </section>
 
 <section class="slide dark" aria-label="Refletir e aplicar">
 <hr class="rule" style="background:var(--gold-l)">
 <h2><span>Refletir e aplicar</span></h2>
-<ul>
+<ul class="cards">
 <li style="max-width:30em"><b class="gold" style="font-family:var(--serif);font-weight:600;font-size:1.25em">Agradecer.</b> Identificar e agradecer pelos recursos que Deus nos dá diariamente.</li>
 <li style="max-width:30em"><b class="gold" style="font-family:var(--serif);font-weight:600;font-size:1.25em">Ser fiel.</b> Administrar os recursos com fidelidade a Deus e lembrar de qual julgamento realmente devemos nos preocupar.</li>
 <li style="max-width:30em"><b class="gold" style="font-family:var(--serif);font-weight:600;font-size:1.25em">Inteiramente e integralmente.</b> Nosso ser como um todo é um recurso: não só os bens, mas a carne, o osso e o sangue. Viva a vida lembrando disso.</li>

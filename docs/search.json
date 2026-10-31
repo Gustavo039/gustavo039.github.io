@@ -32,21 +32,21 @@
     "href": "minicurso.html",
     "title": "Minicurso - Tidyverse",
     "section": "",
-    "text": "O minicurso de introdução a limpeza e manipulação de dados utilizando os pacotes do Tidyverse, oferecido pelo Departamento de Estatística da UFJF, foi ministrado por mim em Dezembro de 2023 para os alunos de todos os campos do conhecimento. As aulas e materiais desenvolvidos podem ser acessados através dessa página\n\n\n\nAula 1 - Motivação e o Operador Pipe\nAula 2 - Dados Tidy\nAula 3 - Modificando Variáveis e Mudando a Forma dos Dados\nAula 4 - Pares de Tabelas e Grupos de Variáveis\nAula 5 - Teste Final\nAula Extra - Git, GitHub e Rstudio\n\n\n\nCanal - Encontros com a Estatística - Dep. Est. Universidade Federal de Juiz de Fora\n\n\n\n\n\nEmenta e introdução\nFluxo de Análise Estatística e os pacotes Tidy\nO Pipe e Funções Anônimas\n\n\n\nObjetos Tabulares do R\nDados Organizados\nBotando a Mão na Massa\nDesafios\n\n\n\nModificando Variáveis\nMV - Funções Auxiliares\nPivotagem\nExtra - Limpeza Dados Epidemiológicos\nDesafios\n\n\n\nJunção de Pares de Tabelas\nDados Agrupados\nDesafios\n\n\n\nTeste Final\n\n\n\n\n\nSolicitações de certificado devem ser realizados até o dia 14/02/2024 através do email encontros.estatistica@ice.ufjf.br"
+    "text": "::: {.column-page}"
   },
   {
     "objectID": "minicurso.html#aula-1",
     "href": "minicurso.html#aula-1",
     "title": "Minicurso - Tidyverse",
-    "section": "",
-    "text": "Ementa e introdução\nFluxo de Análise Estatística e os pacotes Tidy\nO Pipe e Funções Anônimas"
+    "section": "Aula 1",
+    "text": "Aula 1\nEmenta e introdução\nFluxo de Análise Estatística e os pacotes Tidy\nO Pipe e Funções Anônimas"
   },
   {
     "objectID": "mat_ufjf.html",
     "href": "mat_ufjf.html",
     "title": "Disciplinas - UFJF",
     "section": "",
-    "text": "Essa página busca facilitar a entrega e visualização de trabalhos de cada disciplina\n\nMonografia\nModelos para Séries Temporais de Contagem: implementação dos modelos GLARMA e INGARCH no Software R\n\n\nAprendizado de Máquina\nAgrupamento e Modelos de Misturas - Flexmix\nLASSO AdaLASSO e WLAdaLASSO para Séries Temporais\nRedes Neurais na Avaliação de Risco de Crédito: Modelagem e Aplicações - Apresentação\nRedes Neurais na Avaliação de Risco de Crédito: Modelagem e Aplicações - Relatório\n\n\nSéries Temporais\nModelagem Consumo Energético no Brasil - Relatório\nModelagem Consumo Energético no Brasil - Apresentação\n\n\nModelos Lineares Generalizados\nModelos Lineares Generalizados Duplos - Artigo\nModelos Lineares Generalizados Duplos - Apresentação\n\n\nAnálise de Regressão\nPredição de Valores de Carros Usados - Relatório\nPredição de Valores de Carros Usados - Apresentação\n\n\nAmostragem 2\nAvaliação Computacional dos Estimadores de Horvitz-Thompson em Planos Complexos - Artigo"
+    "text": "Essa página busca facilitar a entrega e visualização de trabalhos de cada disciplina\n\nMonografia\nModelos para Séries Temporais de Contagem: implementação dos modelos GLARMA e INGARCH no Software R\n\n\nAprendizado de Máquina\nAgrupamento e Modelos de Misturas - Flexmix\nLASSO AdaLASSO e WLAdaLASSO para Séries Temporais\nRedes Neurais na Avaliação de Risco de Crédito: Modelagem e Aplicações - Apresentação\nRedes Neurais na Avaliação de Risco de Crédito: Modelagem e Aplicações - Relatório\n\n\nSéries Temporais\nModelagem Consumo Energético no Brasil - Relatório\nModelagem Consumo Energético no Brasil - Apresentação\n\n\nModelos Lineares Generalizados\nModelos Lineares Generalizados Duplos - Artigo\nModelos Lineares Generalizados Duplos - Apresentação\n\n\nAnálise de Regressão\nPredição de Valores de Carros Usados - Relatório\nPredição de Valores de Carros Usados - Apresentação\n\n\nAmostragem 2\nAvaliação Computacional dos Estimadores de Horvitz-Thompson em Planos Complexos - Artigo\nteste"
   },
   {
     "objectID": "arquivos_materias/index.html",
@@ -59,29 +59,29 @@
     "objectID": "minicurso.html#aula-2",
     "href": "minicurso.html#aula-2",
     "title": "Minicurso - Tidyverse",
-    "section": "",
-    "text": "Objetos Tabulares do R\nDados Organizados\nBotando a Mão na Massa\nDesafios"
+    "section": "Aula 2",
+    "text": "Aula 2\nObjetos Tabulares do R\nDados Organizados\nBotando a Mão na Massa\nDesafios"
   },
   {
     "objectID": "minicurso.html#aula-3",
     "href": "minicurso.html#aula-3",
     "title": "Minicurso - Tidyverse",
-    "section": "",
-    "text": "Modificando Variáveis\nMV - Funções Auxiliares\nPivotagem\nExtra - Limpeza Dados Epidemiológicos\nDesafios"
+    "section": "Aula 3",
+    "text": "Aula 3\nModificando Variáveis\nMV - Funções Auxiliares\nPivotagem\nExtra - Limpeza Dados Epidemiológicos\nDesafios"
   },
   {
     "objectID": "minicurso.html#aula-4",
     "href": "minicurso.html#aula-4",
     "title": "Minicurso - Tidyverse",
-    "section": "",
-    "text": "Junção de Pares de Tabelas\nDados Agrupados\nDesafios"
+    "section": "Aula 4",
+    "text": "Aula 4\nJunção de Pares de Tabelas\nDados Agrupados\nDesafios"
   },
   {
     "objectID": "minicurso.html#aula-5",
     "href": "minicurso.html#aula-5",
     "title": "Minicurso - Tidyverse",
-    "section": "",
-    "text": "Teste Final"
+    "section": "Aula 5",
+    "text": "Aula 5\nTeste Final"
   },
   {
     "objectID": "index.html#bio",
