@@ -41,7 +41,7 @@ Essa página busca facilitar a entrega e visualização de trabalhos de cada dis
 
 [Avaliação Computacional dos Estimadores de Horvitz-Thompson em Planos Complexos - Artigo](arquivos_materias/Trabalho-Amostragem-2.pdf)
 
-
+[teste] (docs/frutificando-nos-recursos-direct.html)
 
 
 
